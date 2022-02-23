@@ -1,0 +1,149 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.d-tree-container {
+  list-style: none;
+}
+
+.d-tree-content{
+  padding: 0;
+  margin-top: -3.8em;
+  margin-bottom: -2em;
+  margin-left: 4em;
+}
+.d-tree-node table {
+  height: 0.01em;
+  padding: -5em 0;
+}
+
+.d-tree-head{
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+
+.d-tree-toggler.active {
+  transform: rotate(90deg);
+}
+
+.d-flex{
+  display: inline;
+  padding: -1em 0;
+  margin: -1em 0;
+  /* border-left: 1 px solid #000; */
+}
+
+.entries{
+  display: grid;
+  grid-template-rows: auto;
+  margin: 1em;
+}
+
+.subtitle{
+  color: gray;
+  margin-top: -1.7em;
+  padding-bottom: -2em;
+}
+
+.item{
+  /* border-left: 1px solif #000; */
+  margin-left: 2em;
+}
+
+.child{
+  display: grid;
+  grid-template-rows: 30% 30% auto;
+  /* background-color: crimson; */
+}
+.pad{
+  margin-left: -0.3em;
+  padding-left: -0.3em;
+}
+
+.grid-item{
+  margin: 0.2em 1.5em;
+  /* border: 1px dotted #000; */
+}
+
+.item:nth-child(odd){
+  margin-top: -1em;;
+}
+.item:nth-child(odd){
+  padding-top: 1.1rem;
+  margin-left: 2rem;
+  /* background-color: lawngreen; */
+  padding: -0.5em;
+}
+/* .grid-item::nth-child(4){
+  margin-bottom: 30em;
+} */
+
+.grid-item .item{
+  margin-top: -0.8em;
+}
+
+.chief{
+  padding-top: 1.6em;
+  transform: scale(2.5);
+  /* background-color: cadetblue; */
+  /* width: 1.5em;
+  margin-right: 1em; */
+}
+
+.member{
+  padding-top: 1.2em;
+  transform: scale(1.5);
+  /* margin-right: -0.1em; */
+}
+
+/* .toggler{
+  grid-column: 1/1;
+}
+
+.icon{
+  grid-column: 3/1;
+}
+
+.content{
+  grid-column: 4/8;
+}*/
